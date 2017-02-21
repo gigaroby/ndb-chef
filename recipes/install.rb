@@ -166,7 +166,7 @@ template "#{node.ndb.scripts_dir}/util/kill-process.sh" do
   source "kill-process.sh.erb"
   owner node.ndb.user
   group node.ndb.user
-  mode 0655
+  mode 0755
 end
 
 
