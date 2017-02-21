@@ -59,7 +59,7 @@ Vagrant.configure("2") do |c|
             "private_ips" => [local_ip],
             "enabled" => "true",
           },
-          "public_ips" => [local_ip,
+          "public_ips" => [local_ip],
           "private_ips" => [local_ip],
           "vagrant" => "true",
         }
